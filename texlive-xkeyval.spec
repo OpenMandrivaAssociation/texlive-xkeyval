@@ -6,7 +6,7 @@
 # catalog-version 2.6a
 Name:		texlive-xkeyval
 Version:	2.6a
-Release:	1
+Release:	2
 Summary:	Extension of the keyval package
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/xkeyval
