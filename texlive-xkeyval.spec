@@ -1,12 +1,12 @@
-# revision 15878
+# revision 27995
 # category Package
 # catalog-ctan /macros/latex/contrib/xkeyval
-# catalog-date 2008-08-13 18:44:56 +0200
+# catalog-date 2012-01-23 12:21:58 +0100
 # catalog-license lppl
 # catalog-version 2.6a
 Name:		texlive-xkeyval
 Version:	2.6a
-Release:	2
+Release:	3
 Summary:	Extension of the keyval package
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/xkeyval
