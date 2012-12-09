@@ -1,12 +1,12 @@
-# revision 27995
+# revision 15878
 # category Package
 # catalog-ctan /macros/latex/contrib/xkeyval
-# catalog-date 2012-01-23 12:21:58 +0100
+# catalog-date 2008-08-13 18:44:56 +0200
 # catalog-license lppl
 # catalog-version 2.6a
 Name:		texlive-xkeyval
 Version:	2.6a
-Release:	3
+Release:	2
 Summary:	Extension of the keyval package
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/xkeyval
@@ -60,3 +60,16 @@ keys.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Thu Jan 05 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.6a-2
++ Revision: 757660
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 2.6a-1
++ Revision: 719941
+- texlive-xkeyval
+- texlive-xkeyval
+- texlive-xkeyval
+
