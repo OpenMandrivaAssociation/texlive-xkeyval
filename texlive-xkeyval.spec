@@ -1,12 +1,6 @@
-# revision 34020
-# category Package
-# catalog-ctan /macros/latex/contrib/xkeyval
-# catalog-date 2014-05-10 05:53:39 +0200
-# catalog-license lppl
-# catalog-version 2.6d
 Name:		texlive-xkeyval
-Version:	2.6d
-Release:	4
+Version:	2.7a
+Release:	1
 Summary:	Extension of the keyval package
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/xkeyval
@@ -38,29 +32,11 @@ keys.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/generic/xkeyval/keyval.tex
-%{_texmfdistdir}/tex/generic/xkeyval/pst-xkey.tex
-%{_texmfdistdir}/tex/generic/xkeyval/xkeyval.tex
-%{_texmfdistdir}/tex/generic/xkeyval/xkvex1.tex
-%{_texmfdistdir}/tex/generic/xkeyval/xkvex2.tex
-%{_texmfdistdir}/tex/generic/xkeyval/xkvex3.tex
-%{_texmfdistdir}/tex/generic/xkeyval/xkvex4.tex
-%{_texmfdistdir}/tex/generic/xkeyval/xkvtxhdr.tex
-%{_texmfdistdir}/tex/latex/xkeyval/pst-xkey.sty
-%{_texmfdistdir}/tex/latex/xkeyval/xkeyval.sty
-%{_texmfdistdir}/tex/latex/xkeyval/xkveca.cls
-%{_texmfdistdir}/tex/latex/xkeyval/xkvecb.cls
-%{_texmfdistdir}/tex/latex/xkeyval/xkvesa.sty
-%{_texmfdistdir}/tex/latex/xkeyval/xkvesb.sty
-%{_texmfdistdir}/tex/latex/xkeyval/xkvesc.sty
-%{_texmfdistdir}/tex/latex/xkeyval/xkvltxp.sty
-%{_texmfdistdir}/tex/latex/xkeyval/xkvview.sty
-%doc %{_texmfdistdir}/doc/latex/xkeyval/README
-%doc %{_texmfdistdir}/doc/latex/xkeyval/xkeyval.bib
-%doc %{_texmfdistdir}/doc/latex/xkeyval/xkeyval.pdf
-%doc %{_texmfdistdir}/doc/latex/xkeyval/xkvpream.ble
+%{_texmfdistdir}/tex/generic/xkeyval
+%{_texmfdistdir}/tex/latex/xkeyval
+%doc %{_texmfdistdir}/doc/latex/xkeyval
 #- source
-%doc %{_texmfdistdir}/source/latex/xkeyval/xkeyval.dtx
+%doc %{_texmfdistdir}/source/latex/xkeyval
 
 #-----------------------------------------------------------------------
 %prep
